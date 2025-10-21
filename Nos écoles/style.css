@@ -1,0 +1,191 @@
+/*Mise en page du Header*/
+#header {
+    display: flex;
+    background-color: white;
+}
+
+#en-tete {
+    display: flex;
+    justify-content: space-between;
+}
+
+#lien-container {
+    display: flex;
+    align-items: center;
+
+}
+
+#lien-container div {
+    margin: 2%;
+}
+
+#header-lien-1 {
+    display: flex;
+}
+
+#header-lien-2 {
+    display: flex;
+}
+
+#header-lien-3 {
+    display: flex;
+}
+
+#header-lien-4 {
+    display: flex;
+}
+
+#en-tete a {
+    color: grey;
+}
+
+
+#logo {
+     width: 55%;
+}
+
+img {
+    width: 100%
+}
+
+
+/*Mise en place intro avec image*/
+#title-principal {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+#intro {
+    display: flex;
+}
+
+#intro-text {
+    display: flex;
+    font-size: 20px;
+    color: grey;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#intro-img{
+    display: flex;
+    width: 75%
+}
+
+.title {
+    color: blue;
+   margin-left: 5%;
+    margin-top: 5%;
+}
+
+.ville {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+/*Mise en place de toutes les images*/
+#img-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+}
+
+#img-container-2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+}
+
+#img-container div {
+    width: 32%;
+}
+
+#img-container-2 div {
+    width: 32%;
+}
+
+.img {
+    display: flex;
+        flex-direction: column;
+        justify-content; space-evenly;
+        align-items: center;
+}
+
+.border {
+    border: solid orangered;
+    background-color: orangered;
+    font-size: 18px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Mise en place du footer*/
+
+#footer {
+    display: flex;
+    background-color: grey;
+    justify-content: space-around;
+    color: white;
+    margin-top: 3%;
+    font-size: 18px;
+}
+
+#column-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+#logo2 {
+    width: 70%;
+}
+
+#column-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#column-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#column-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.color-principal {
+    color: white;
+}
+
+#border-2 {
+    border: solid white;
+    background-color: white;
+}
+
+#border-3 {
+    border: solid orangered;
+    background-color: orangered;
+}
+
+#border-4 {
+    border: solid white;
+}
+

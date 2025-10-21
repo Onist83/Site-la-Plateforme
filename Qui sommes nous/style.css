@@ -329,7 +329,8 @@
      display: flex;
      justify-content: space-evenly;
      flex-direction: column;
-     width: 20%;justify-content: space-evenly;
+     width: 20%;
+     justify-content: space-evenly;
      font-family: Roboto Regular;
      color:grey;
      font-size: 18px
