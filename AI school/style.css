@@ -321,6 +321,13 @@ a {
     font-weight: 900
 }
 
+#img-final {
+    margin-top: 50px;
+    margin-left: 95px;
+    border-radius: 50px;
+    width: 40%;
+}
+
 /*Mise en place du footer*/
 
 #footer {
@@ -330,6 +337,7 @@ a {
     color: white;
     margin-top: 3%;
     font-size: 18px;
+    margin-top: 50px;
 }
 
 #column-1 {
