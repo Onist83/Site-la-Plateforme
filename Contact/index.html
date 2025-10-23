@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Informations - Ecole Informatique La Plateforme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--Header avec logo!-->
+    <header>
+        <div id="en-tete">
+            <div><img id="logo" src="La%20plateforme%20header.png" alt="logo la plateforme"></div>
+            <div id="lien-container">
+                <div id="header-lien-1"><a href="https://laplateforme.io/qui-sommes-nous/">Qui sommes-nous?</a></div>
+                <div id="header-lien-2"><a href="https://laplateforme.io/extrascolaire/">Extrascolaire</a></div>
+                <div id="header-lien-3"><a href="https://laplateforme.io/prf-var/">Formations initiales/alternance</a></div>
+                <div id="header-lien-4"><a href="https://laplateforme.io/ia-et-metiers-de-limage/">Formations continues</a></div>
+                <div id="header-lien-5"><a href="https://laplateforme.io/atelier/">Atelier & Labs</a></div>
+            </div>
+        </div>
+    </header>
+
+        <!--Photos et questionnaire!-->
+    <main>
+        <div id="text-photo">
+            <div id="title">
+                <h3>La grande école du numérique pour tous</h3>
+            </div>
+                <div id="text-intro"><p class="text-intro">Besoin d’un renseignement sur nos cursus, notre accompagnement entreprises, nos projets et actions ?
+                        Contactez-nous.</p>
+                </div>
+                <div id="img"><img src="personnes.jpg" alt="personnes">
+                </div>
+        </div>
+
+            <!--Formulaire!-->
+        <div id="border">
+            <h1>La Plateforme/Contact</h1>
+                <p>"*" indique les champs nécessaires</p>
+            <label for="select">Civilité</label>
+                <select name="Civilité" id="select" required>
+                    <option value="">*Civilité</option>
+                    <option value="Mr">Mr</option>
+                    <option value="Mme">Mme</option>
+                    <option value="Mx">Mx</option>
+                </select>
+
+                    <label for="name">Prénom</label>
+                        <input type="text" id="name" name="Prénom" placeholder="*Prénom" required>
+
+                    <label for="lastname">Nom</label>
+                        <input type="text" id="lastname" name="Nom" placeholder="*Nom" required>
+
+
+                    <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" placeholder="*example123@gmail.com" required>
+
+                        <label for="mobil">Téléphone mobile</label>
+                        <input type="tel" id="mobil" name="mobil" placeholder="*04-94-01-02-03"
+                               pattern="[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}-[0-9]{2}" required>
+
+
+                    <select name="*Sélectionner un motif de contact" id="select-1" required>
+                        <option value="">*Sélectionner un motif de contact</option>
+                        <option value="Aide et informations">Aide à l'orientation et informations sur les programmes</option>
+                        <option value="Entreprises">Relations Entreprises</option>
+                        <option value="Presse">Presse / Partenariat / Communicatiion</option>
+                        <option value="Candidatures">Suivi de candidatures</option>
+                        <option value="RH">Recrutement RH</option>
+                        <option value="Apprentissage">axe d'apprentissage</option>
+                        <option value="Autre">Autre</option>
+                    </select>
+
+
+                    <label for="text">*message</label>
+                    <textarea name="message" id="text" placeholder="*message" required></textarea>
+
+
+                    <input type="checkbox" id="check" name="accepeter information" value="1">
+                    <label for="check">J'accepte de recevoir des informations de la part de La Plateforme</label>
+
+
+                    <input type="submit" value="Envoyer">
+
+        </div>
+
+    </main>
